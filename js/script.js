@@ -1,3 +1,19 @@
+$("#form").on('submit',function(event){
+  event.preventDefault();
+  var name = $("#name").val();
+  var email = $("#email").val();
+  var message = $("textarea#message").val();
+  
+  if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(form.email.value)){
+      alert ("Hi " + name + ", we have received your message. Thank you for being our number one customer.");
+  }
+  else {
+      alert("Please provide your correct email address!");
+  }
+ 
+  $("#form")[0].reset();
+});
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");

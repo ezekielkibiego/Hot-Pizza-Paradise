@@ -15,13 +15,12 @@
 <body>
     <div class="container-full landing">
         <div id="navbar">
-            <a href="javascript:void(0)">Location</a>
             <a href="javascript:void(0)">Contact</a>
             <a href="javascript:void(0)">Menu</a>
             <a href="#about ">About</a>
             <a class="active" href="javascript:void(0)">Home</a>
            <div class="right">
-            <a class="active" href="javascript:void(0)">Pizza Paradise</a>
+            <a class="active" href="javascript:void(0)">Pizza</a>
            </div>
         </div>
         <div class="container text-center header" id="home">
@@ -56,45 +55,46 @@
     </div><br><br>
     <div class="container menu text-center">
         <h2>Menu</h2><br>
-       <div class="container">
-        <div class="row row-cols-4">
-            <div class="col">
-                <img src="assets/cheese.jpeg" alt="" class="responsive">
-                <h3>Cheese Pizza</h3>
+       <div class="container-fluid ">
+            <div class="row row-cols-4">
+                <div class="col">
+                    <img src="assets/cheese.jpeg" alt="" class="responsive">
+                    <h3>Cheese Pizza</h3>
+                </div>
+                <div class="col">
+                    <img src="assets/peperoni.jpeg" alt="" class="responsive">
+                    <h3>Pepperoni Pizza</h3>
+                </div>
+                <div class="col">
+                    <img src="assets/meat.jpeg" alt="" class="responsive">
+                    <h3>Meat Pizza</h3>
+                </div>
+                <div class="col">
+                    <img src="assets/veggie.jpeg" alt="" class="responsive">
+                    <h3>Veggie Pizza</h3>
+                </div>
+            </div><br>
+            <div class="row row-cols-4">
+                <div class="col">
+                    <img src="assets/chicken.jpeg" alt="" class="responsive">
+                    <h3>Chicken Pizza</h3>
+                </div>
+                <div class="col">
+                    <img src="assets/buffalo.jpeg" alt="" class="responsive">
+                    <h3>Buffalo Pizza</h3>
+                </div>
+                <div class="col">
+                    <img src="assets/hawaaian.jpeg" alt="" class="responsive">
+                    <h3>Hawaiian Pizza</h3>
+                </div>
+                <div class="col">
+                    <img src="assets/marg.jpeg" alt="" class="responsive">
+                    <h3>BBQ Pizza</h3>
+                </div>
             </div>
-            <div class="col">
-                <img src="assets/peperoni.jpeg" alt="" class="responsive">
-                <h3>Pepperoni Pizza</h3>
-            </div>
-            <div class="col">
-                <img src="assets/meat.jpeg" alt="" class="responsive">
-                <h3>Meat Pizza</h3>
-            </div>
-            <div class="col">
-                <img src="assets/veggie.jpeg" alt="" class="responsive">
-                <h3>Veggie Pizza</h3>
-            </div>
-        </div><br>
-        <div class="row row-cols-4">
-            <div class="col">
-                <img src="assets/chicken.jpeg" alt="" class="responsive">
-                <h3>Chicken Pizza</h3>
-            </div>
-            <div class="col">
-                <img src="assets/buffalo.jpeg" alt="" class="responsive">
-                <h3>Buffalo Pizza</h3>
-            </div>
-            <div class="col">
-                <img src="assets/hawaaian.jpeg" alt="" class="responsive">
-                <h3>Hawaiian Pizza</h3>
-            </div>
-            <div class="col">
-                <img src="assets/marg.jpeg" alt="" class="responsive">
-                <h3>Margherita Pizza</h3>
-            </div>
-        </div>
-      </div>
-      <div class="container-fluid order text-start" id="make-order">
+        </div>   
+    </div>
+    <div class="container order text-start" id="make-order">
         <div class="order-overlay">
           <div class="controls-top text-center"> 
             <h2  id="Order-now">Order Now</h2>
@@ -105,7 +105,7 @@
                 <form action="">
                     <label for="select">Pick Variety!</label><br>
                     <select class="browser-default custom-select custom-select-md mb-3 name">
-                      <option value="cheese pizza">Cheese pizza</option>
+                      <option value="cheese pizza">Cheese pizza variety</option>
                       <option value="pepperoni pizza">Pepperoni Pizza</option>
                       <option value="meat pizza">Meat Pizza</option>
                       <option value="veggie pizza">Veggie Pizza</option>
@@ -138,16 +138,11 @@
                     <div class="custom-control custom-checkbox custom-control-inline">
                         <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
                         <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
-                      </div>
-                      
+                      </div><br>
                     <button type="submit" class="proceed">Proceed</button>
-                    
                   </form><br>
                   <div id="information">
                     <p>Your order will be processed and delivered within 45 minutes on completing your order.</p>
-                    <p>Have the <strong>total amount</strong> in cash or MPESA for the order during order delivery.</p>
-                    <p>Incase of any comment of complaint, kindly reach out to us as fast as possible.</p>
-                    <p id="regards">Regards, Hot Pizza Paradise Management</p>
                   </div>
                 </div>
                 <div class="col-sm-7">
@@ -188,17 +183,68 @@
                         <div class="form-group">
                           <input type="text" id="name" class="form-control mb-3" placeholder="Name">
                           <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
-                          <input type="text" id="location" class="form-control mb-3" placeholder="Location address for delivery">
+                          <input type="text" id="location" class="form-control mb-3" placeholder="Address for delivery">
                           <button class="" id="final-order">Place Order</button>
                         </div>
                       </form>
                   </div>
                 </div>
             </div>
-          </div>
         </div>
     </div><br><br>
-   
+    <div class="container-full text-start contact">
+        <div class="contact-overlay">
+            <h1 class="text-center text-white b-text">CONTACT</h1><br>
+            <div class="container">
+              <div class="col-md-12 input">
+                <form id="form">
+                    <div class="row g-3">
+                        <div class="col">
+                          <input class="col-md-4 form-control name" type="text" id="name" placeholder="Name" aria-label="name" value="" required>
+                        </div>
+                        <div class="col">
+                         <input class="col-md-4 form-control email" type="text" id="email" placeholder="Email" aria-label="email" value="" required>
+                        </div>
+                    </div><br>
+                    <div class="col">
+                        <input class="col-md-4 form-control subject" type="text" id="subject" placeholder="Subject" aria-label="subject" value="" required>
+                    </div><br>
+                    <div class="mb-sm-1">
+                        <textarea class="form-control col-md-8 text" rows="6" name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <button class="submit" id="okButton" type="submit">Submit</button>
+                    <br>
+                </form>
+              </div>
+            </div>
+        </div>
+        <br>
+        <div class="container text-center">
+            <div>
+                <div class="row row-cols-4">
+                    <div class="col">
+                        <p>+254722991833</p>
+                    </div>
+                    <div class="col">
+                        <a href="mailto: kibiezekiel@gmail.com" target="_blank">hotpizza@paradise.co.ke<alt="email" class="responsive"></a>
+                    </div>
+                    <div class="col">
+                        <div><a href="https://twitter.com/KibiegoEzekiel" target="_blank">Twitter<alt="twitter" class="responsive"></a></div>
+                    </div>
+                    <div class="col">
+                        <div><a href="https://www.facebook.com/kibiego.ezekiel.9" target="_blank">Facebook<alt="facebook" class="responsive"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div><br>
     <script src="js/script.js"></script>
 </body>
 </html>
+<div class="col">
+    
+  </div>
+  <div class="col">
+   
+  </div><br>
