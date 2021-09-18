@@ -17,3 +17,4 @@ const menu = document.querySelector('nav');
 button.addEventListener('click', () => {
   menu.classList.toggle('visible');
 });
+

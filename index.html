@@ -28,24 +28,20 @@
           <h2 class="intro">Welcome To</h2>
           <div class="heading2"><h1 class="heading">Hot pizza Paradise</h1></div>
           <p>Get the most yummy pizza of all times!</p>
-          <div class="order"><a href="" ><button>Order Now</button> </a>
+          <div class="order"><a href="#Order-now" ><button>Order Now</button> </a>
           </div>
         </div>
     </div>
     <div class="container-full text-center about" id="about">
-        <h2>About</h2>
+        <h2>About</h2><br><br>
         <div class="container text-start ">
             <p>More than 20 types of crispy thin crust pizzas, over 20 delicious salads, wide variety of quick toppings,
                  different types of pasta and lasagna.These are included in the 5-year history of <strong>Hot Pizza Paradise</strong>. 
                 The menu is selected to customers’ taste, wide and diverse, sifted out to remain the best.
             </p>
-            <p>
-                Once visited the restaurants, be sure to try a few pizzas that have become what we are.
-                 Among the most ordered pizzas are <em>cheese pizza, pepperoni pizza and veggie pizza</em>. 
-                 Each pizza base is spread with unique tomato sauce,
-                  prepared on a special recipe. The pizzeria insists on quality, therefore ingredients are always fresh and well chosen.
-                   Our trademark are the different types of pita breads as the newest addition here is a fragrant pita bread baked with dried tomatoes, 
-                   olives and oregano.</p>
+            <p>Once visited the restaurants, be sure to try a few pizzas that have become what we are.
+                 Among the most ordered pizzas are <em>cheese pizza, pepperoni pizza and veggie</em>. 
+            </p>
             <div class="row">
                <div class="col">
                  <img src="assets/pizza3.jpeg" alt="pizza image" class="responsive">
@@ -56,9 +52,153 @@
                  <p>Fill your stomach without emptying your pockets with our money-saving partnership offers.</p>
               </div>
             </div>
+        </div> 
+    </div><br><br>
+    <div class="container menu text-center">
+        <h2>Menu</h2><br>
+       <div class="container">
+        <div class="row row-cols-4">
+            <div class="col">
+                <img src="assets/cheese.jpeg" alt="" class="responsive">
+                <h3>Cheese Pizza</h3>
+            </div>
+            <div class="col">
+                <img src="assets/peperoni.jpeg" alt="" class="responsive">
+                <h3>Pepperoni Pizza</h3>
+            </div>
+            <div class="col">
+                <img src="assets/meat.jpeg" alt="" class="responsive">
+                <h3>Meat Pizza</h3>
+            </div>
+            <div class="col">
+                <img src="assets/veggie.jpeg" alt="" class="responsive">
+                <h3>Veggie Pizza</h3>
+            </div>
+        </div><br>
+        <div class="row row-cols-4">
+            <div class="col">
+                <img src="assets/chicken.jpeg" alt="" class="responsive">
+                <h3>Chicken Pizza</h3>
+            </div>
+            <div class="col">
+                <img src="assets/buffalo.jpeg" alt="" class="responsive">
+                <h3>Buffalo Pizza</h3>
+            </div>
+            <div class="col">
+                <img src="assets/hawaaian.jpeg" alt="" class="responsive">
+                <h3>Hawaiian Pizza</h3>
+            </div>
+            <div class="col">
+                <img src="assets/marg.jpeg" alt="" class="responsive">
+                <h3>Margherita Pizza</h3>
+            </div>
+        </div>
+      </div>
+      <div class="container-fluid order text-start" id="make-order">
+        <div class="order-overlay">
+          <div class="controls-top text-center"> 
+            <h2  id="Order-now">Order Now</h2>
           </div>
-        
-    </div>
+          <h2>Order your pizza here now and we will deliver it to you at your home or office!</h2>
+          <div class="row">
+              <div class="col-sm-5">
+                <form action="">
+                    <label for="select">Pick Variety!</label><br>
+                    <select class="browser-default custom-select custom-select-md mb-3 name">
+                      <option value="cheese pizza">Cheese pizza</option>
+                      <option value="pepperoni pizza">Pepperoni Pizza</option>
+                      <option value="meat pizza">Meat Pizza</option>
+                      <option value="veggie pizza">Veggie Pizza</option>
+                      <option value="chicken Pizza">Chicken Pizza</option>
+                      <option value="Buffalo pizza">Buffalo Pizza</option>
+                      <option value="Hawaiian pizza">Hawaiian Pizza</option>
+                      <option value="margherita pizza">Margherita</option>
+                    </select><br>
+                  <label for="selecg">Pick Size!</label><br>
+                  <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                    <option value="large">Large @KShs. 1300</option>
+                    <option value="medium">Medium @KShs. 950</option>
+                    <option value="small">Small @KShs. 700</option>
+                  </select><br>
+                  <label for="select">Pick Crust!</label><br>
+                    <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                      <option value="Crispy">Crispy @KShs. 250</option>
+                      <option value="Stuffed">Stuffed @KShs. 200</option>
+                      <option value="Gluten-free">Gluten @KShs. 230</option>
+                    </select><br>
+                  <label for="Toppings">Pick Toppings @KShs. 70</label><br>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                      <label class="custom-control-label" for="Sausage">Sausage</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                      <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                      <label class="custom-control-label" for="Bacon">Bacon</label>
+                    </div>
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                        <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                        <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                      </div>
+                      <br><br>
+                    <button type="submit" class="proceed">Proceed</button>
+                    
+                  </form>
+                </div>
+                <div class="col-sm-7">
+                  <div id="information">
+                    <p>Your order will be processed and delivered within 45 minutes on completing your order.</p>
+                    <p>Have the <strong>total amount</strong> in cash or MPESA for the order during order delivery.</p>
+                    <p>Incase of any comment of complaint, kindly reach out to us as fast as possible.</p>
+                    <p id="regards">Regards, Hot Pizza Paradise Management</p>
+                  </div>
+                  <div class="choise">
+                    <h2>Your Order is:</h2>
+                    <div id="your-orders">
+                      <table class="table table-sm  pizzatable">
+                        <thead>
+                          <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Crust</th>
+                            <th scope="col">Topping</th>
+                            <th scope="col">Total</th>
+                          </tr>
+                        </thead>
+                        <tbody id="ordersmade">
+                          <tr>
+                            <td id="pizzaname"></td>
+                            <td id="pizzasize"></td>
+                            <td id="pizzacrust"></td>
+                            <td id="pizzatopping"></td>
+                            <td id="totals"></td>
+                          </tr>                  
+                        </tbody>
+                      </table>
+                      <p id="pizzatotal"></p>
+                      <p id="totalbill"></p> 
+                      <p id="addedprice">Delivery will cost KShs. 250</p>
+                      <p id="finallmessage"></p>
+                    </div><br>
+                    <button class="addPizza">Add Pizza</button>
+                    <button class="" id="checkout">Checkout</button>
+                    <button class="deliver">Home delivery?</button>
+                  </div><br>
+                  <div class="delivery">
+                      <form action="">
+                        <div class="form-group">
+                          <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                          <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
+                          <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                          <button class="" id="final-order">Place Order</button>
+                        </div>
+                      </form>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div><br><br>
+   
     <script src="js/script.js"></script>
 </body>
 </html>
