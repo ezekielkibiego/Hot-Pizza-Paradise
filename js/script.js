@@ -129,16 +129,17 @@ $(document).ready(function(){
       $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
     });
 
+
     $("button.deliver").click(function(){
       $(".pizzatable").hide();
-      $(".choise h2").hide();
+      $(".order2 h2").hide();
       $(".delivery").show();
       $("#addedprice").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
       var deliveryamount= checkoutTotal+250;
-      console.log("You will pay sh. "+deliveryamount+" on delivery");
-      $("#totalbill").append("Your bill plus delivery fee is: "+deliveryamount);
+      console.log("You will pay KShs. "+deliveryamount+" on delivery");
+      $("#totalbill").append("Your bill plus delivery fee is: "+deliveryamount );
     });
 
     $("button#final-order").click(function(event){
@@ -155,9 +156,12 @@ $(document).ready(function(){
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
   
-        $("#finallmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliceryamount);
+        $("#finallmessage").append("Hi "+ person+", We have received your order and it will be delivered to you within 45 Mins at "+location+ ". Prepare KShs. "+deliveryamount);
         $("#totalbill").hide();
         $("#finallmessage").show();
+        $("#info").hide();
+        $("#info").show();
+
       }
       else {
         alert("Kindly, fill in your delivery details!");

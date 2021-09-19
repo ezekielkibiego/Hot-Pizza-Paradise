@@ -121,3 +121,33 @@ body{
 .menu{
   background-color: rgba(33, 33, 33, 1);
 }
+.variety option{
+  background-color: crimson;
+}
+#addedprice{
+  display: none;
+}
+.proceed{
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+.proceed:hover{
+  background-color: white;
+  color: crimson;
+}
+.addPizza{
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+.addPizza:hover{
+  background-color: white;
+  color: crimson;
+}
