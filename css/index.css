@@ -2,7 +2,7 @@ body{
   color: green;
   font-style: normal;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   background-color: orange;
@@ -10,28 +10,27 @@ body{
 
 #navbar {
   overflow: hidden;
-  background-color: orange;
+  
 }
 
 #navbar a {
   float: right;
   display: block;
-  color: green;
+  color: crimson;
   text-align: center;
   padding-right: 20px;
   text-decoration: none;
-  font-size: 20px;
-
+  font-weight: 600;
 }
 
 #navbar a:hover {
   background-color: green;
-  color: crimson;
+  color: orange;
 }
 
-#navbar a.active {
-  background-color: orange;
-  color: green;
+
+.logo{
+  opacity: 0.25;
 }
 
 .content {
@@ -54,7 +53,7 @@ body{
 .landing {
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
 }
 .header {
   padding-top: 100px;
@@ -92,9 +91,11 @@ body{
 .heading2{
   line-height: 80px;
   overflow: hidden;
+  
 }
 .heading2 h1{
   position: relative;
+  
   
 }
 .heading2 h1::after{
