@@ -1,7 +1,8 @@
 body{
-  color: white;
+  color: green;
   font-style: normal;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
   margin: 0;
   padding: 0;
   background-color: orange;
@@ -15,21 +16,22 @@ body{
 #navbar a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: green;
   text-align: center;
-  padding: 14px 16px;
+  padding-right: 20px;
   text-decoration: none;
   font-size: 20px;
+
 }
 
 #navbar a:hover {
-  background-color: #ddd;
+  background-color: green;
   color: crimson;
 }
 
 #navbar a.active {
   background-color: orange;
-  color: white;
+  color: green;
 }
 
 .content {
@@ -71,12 +73,17 @@ body{
   font-size: 30px;
   font-weight: 600;
 }
+
 .header .order a button{
-  color:white;
-  background-color: crimson;
+  color: yellow;
+  background-color: green;
   border-radius: 30px;
   padding: 10px;
   border: none;
+}
+.header .order a button:hover{
+  color: green;
+  background-color: crimson;
 }
 .header .intro{
   color: crimson;
@@ -115,99 +122,108 @@ body{
 }
 
 .variety option{
-  background-color: crimson;
+  background-color: green;
 }
 #addedprice{
   display: none;
 }
 .proceed{
-  background-color: crimson;
+  background-color: green;
   border: none;
   border-radius: 5px;
   font-size: 25px;
   font-weight: 400;
-  color: white;
+  color: yellow;
 }
 .proceed:hover{
-  background-color: white;
-  color: crimson;
+  background-color: crimson;
+  color: green;
 }
 .addPizza{
-  background-color: crimson;
+  background-color: green;
   border: none;
   border-radius: 5px;
   font-size: 25px;
   font-weight: 400;
-  color: white;
+  color: yellow;
 }
 .addPizza:hover{
-  background-color: white;
-  color: crimson;
+  background-color: crimson;
+  color: green;
 }
 #checkout{
-  background-color: crimson;
+  background-color: green;
   border: none;
   border-radius: 5px;
   font-size: 25px;
   font-weight: 400;
-  color: white;
+  color: yellow;
 }
 #checkout:hover{
-  background-color: white;
-  color: crimson;
+  background-color: crimson;
+  color: green;
 }
 .deliver{
-  background-color: crimson;
+  background-color: green;
   border: none;
   border-radius: 5px;
   font-size: 25px;
   font-weight: 400;
-  color: white;
+  color: yellow;
 }
 .deliver:hover{
-  background-color: white;
-  color: crimson;
+  background-color: crimson;
+  color: green;
 }
 #final-order{
-  background-color: crimson;
+  background-color: green;
   border: none;
   border-radius: 5px;
   font-size: 25px;
   font-weight: 400;
-  color: white;
+  color: yellow;
 }
 #final-order:hover{
-  background-color: white;
-  color: crimson;
+  background-color: crimson;
+  color: green;
 }
 .form-control{
   background-color: transparent;
   
 }
 .form-control::placeholder{
-  color: white;
+  color: green;
   font-weight: bold;
 }
 #okButton{
-  background-color: crimson;
+  background-color: green;
   border: none;
   border-radius: 5px;
   font-size: 25px;
   font-weight: 400;
-  color: white;
+  color: yellow;
 }
 #okButton:hover{
-  background-color: white;
+  background-color: crimson;
+  color: green;
+}
+ h2{
   color: crimson;
 }
 .contact a{
   text-decoration: none;
-  color: crimson;
+  color: green;
   font-weight: bold;
   font-size: 20px;
 }
 .contact a:hover{
   background-color: crimson;
-  color: white;
+  color: crimson;
   border-radius: 2px;
+}
+.var, .crust, .size{
+  color: yellow;
+  background-color: green;
+  outline: none;
+  border-radius: 5px;
 }

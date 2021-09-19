@@ -15,12 +15,12 @@
 <body>
     <div class="container-full landing">
         <div id="navbar">
-            <a href="javascript:void(0)">Contact</a>
-            <a href="javascript:void(0)">Menu</a>
+            <a href="#contact">Contact</a>
+            <a href="#menu">Menu</a>
             <a href="#about ">About</a>
-            <a class="active" href="javascript:void(0)">Home</a>
+            <a href="#home">Home</a>
            <div class="right">
-            <a class="active" href="javascript:void(0)">Pizza</a>
+            <a  href="javascript:void(0)">Pizza</a>
            </div>
         </div>
         <div class="container text-center header" id="home">
@@ -53,7 +53,7 @@
             </div>
         </div> 
     </div><br><br>
-    <div class="container menu text-center">
+    <div class="container menu text-center" id="menu">
         <h2>Menu</h2><br>
        <div class="container-fluid ">
             <div class="row row-cols-4">
@@ -103,7 +103,7 @@
               <div class="col-sm-5 variety">
                 <form action="">
                     <label for="select">Pick Variety!</label><br>
-                    <select class="browser-default custom-select custom-select-md mb-3 name">
+                    <select class="browser-default custom-select custom-select-md mb-3  var name">
                       <option value="cheese pizza">Cheese pizza variety</option>
                       <option value="pepperoni pizza">Pepperoni Pizza</option>
                       <option value="meat pizza">Meat Pizza</option>
@@ -114,13 +114,13 @@
                       <option value="margherita pizza">Margherita</option>
                     </select><br>
                   <label for="select">Pick Size!</label><br>
-                  <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                  <select class="browser-default custom-select custom-select-md mb-3 size"  id="size">
                     <option value="large">Large @KShs. 1300</option>
                     <option value="medium">Medium @KShs. 950</option>
                     <option value="small">Small @KShs. 700</option>
                   </select><br>
                   <label for="select">Pick Crust!</label><br>
-                    <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                    <select class="browser-default custom-select custom-select-md mb-3 crust" id="crust">
                       <option value="Crispy">Crispy @KShs. 250</option>
                       <option value="Stuffed">Stuffed @KShs. 200</option>
                       <option value="Gluten-free">Gluten @KShs. 230</option>
@@ -145,7 +145,7 @@
                   <div class="order2">
                     <h4>Your Order:</h4>
                     <div id="your-orders">
-                      <table class="table table-sm  pizzatable" style="color: white;">
+                      <table class="table table-sm  pizzatable" style="color: green;">
                         <thead>
                           <tr>
                             <th scope="col">Name</th>
@@ -202,9 +202,9 @@
             </div>
         </div>
     </div><br><br>
-    <div class="container-full text-start contact">
+    <div class="container-full text-start contact" id="contact">
         <div class="contact-overlay">
-            <h2 class="text-center text-white b-text">Contact</h2><br>
+            <h2 class="text-center b-text">Contact</h2><br>
             <div class="container">
               <div class="col-md-12 input">
                 <form id="form">
@@ -231,7 +231,7 @@
         <br>
         <div class="container text-center contact">
             <div>
-                <div class="row row-cols-4">
+                <div class="row">
                     <div class="col">
                         <a href="" class="responsive"><p>+254722991833</p></a>
                     </div>
