@@ -157,9 +157,9 @@ $(document).ready(function(){
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
   
-        $("#finallmessage").append("Hi "+ person+", We have received your order and it will be delivered to you within 45 Mins at "+location+ ". Prepare KShs. "+deliveryamount);
+        $("#finallm").append("Hi "+ person+", We have received your order and it will be delivered to you within 45 Mins at "+location+ ". Amount payable KShs. "+deliveryamount);
         $("#totalbill").hide();
-        $("#finallmessage").show();
+        $("#finallm").show();
 
       }
       else {
