@@ -63,7 +63,7 @@ $(document).ready(function(){
        price = 700;
        console.log(price);
      default:
-       console.log("error"); 
+       console.log("undefined"); 
    }
    switch(pcrust){
       case "0":
@@ -79,7 +79,7 @@ $(document).ready(function(){
         crust_price = 230;
       break;
       default:
-        console.log("No price"); 
+        console.log("undefined"); 
     }
     var topping_value = ptopping.length*70;
     console.log("toppins value" + topping_value);
@@ -123,8 +123,8 @@ $(document).ready(function(){
     $("button#checkout").click(function(){ 
       $("button#checkout").hide();
       $("button.addPizza").hide();
-      $("button.deliver").slideDown();
-      $("#addedprice").slideDown();
+      $("button.deliver").show();
+      $("#addedprice").show();
       console.log("Your total bill is Kshs. "+checkoutTotal);
       $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
     });
@@ -132,7 +132,7 @@ $(document).ready(function(){
     $("button.deliver").click(function(){
       $(".pizzatable").hide();
       $(".choise h2").hide();
-      $(".delivery").slideDown();
+      $(".delivery").show();
       $("#addedprice").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
