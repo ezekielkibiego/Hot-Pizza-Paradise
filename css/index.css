@@ -1,16 +1,15 @@
 body{
   color: white;
-  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   margin: 0;
   padding: 0;
-  background-color: rgba(33, 33, 33, 1);
+  background-color: orange;
  }
 
 #navbar {
   overflow: hidden;
-  background-color: crimson;
+  background-color: orange;
 }
 
 #navbar a {
@@ -29,7 +28,7 @@ body{
 }
 
 #navbar a.active {
-  background-color: crimson;
+  background-color: orange;
   color: white;
 }
 
@@ -51,7 +50,6 @@ body{
   font-weight: bold;
 }
 .landing {
-  background: rgba(33, 33, 33, 1);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -99,7 +97,7 @@ body{
   width: 100%;
   height: 100%;
   animation: typing 5s steps(18) infinite;
-  background: rgba(33, 33, 33, 1);
+  background: orange;
 }
 @keyframes typing{
   40%,
@@ -115,12 +113,7 @@ body{
   width: 100%;
   height: auto;
 }
-.about {
-  background-color: rgba(33, 33, 33, 1);
-}
-.menu{
-  background-color: rgba(33, 33, 33, 1);
-}
+
 .variety option{
   background-color: crimson;
 }
@@ -150,4 +143,71 @@ body{
 .addPizza:hover{
   background-color: white;
   color: crimson;
+}
+#checkout{
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+#checkout:hover{
+  background-color: white;
+  color: crimson;
+}
+.deliver{
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+.deliver:hover{
+  background-color: white;
+  color: crimson;
+}
+#final-order{
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+#final-order:hover{
+  background-color: white;
+  color: crimson;
+}
+.form-control{
+  background-color: transparent;
+  
+}
+.form-control::placeholder{
+  color: white;
+  font-weight: bold;
+}
+#okButton{
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+#okButton:hover{
+  background-color: white;
+  color: crimson;
+}
+.contact a{
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+  font-size: 20px;
+}
+.contact a:hover{
+  background-color: crimson;
+  color: white;
+  border-radius: 2px;
 }

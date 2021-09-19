@@ -94,12 +94,11 @@
             </div>
         </div>   
     </div>
-    <div class="container order text-center" id="make-order">
+    <div class="container order text-start" id="make-order">
         <div class="order-overlay">
           <div class="controls-top text-center"> 
             <h2  id="Order-now">Order Now</h2>
           </div>
-          <h2>Order your pizza here now and we will deliver it to you at your home or office!</h2>
           <div class="row">
               <div class="col-sm-5 variety">
                 <form action="">
@@ -127,7 +126,7 @@
                       <option value="Gluten-free">Gluten @KShs. 230</option>
                     </select><br>
                   <label for="Toppings">Pick Toppings @KShs. 70</label><br>
-                    <div class="custom-control custom-checkbox custom-control-inline">
+                    <div class="custom-control custom-checkbox custom-control">
                       <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
                       <label class="custom-control-label" for="Sausage">Sausage</label>
                     </div>
@@ -144,7 +143,7 @@
                 </div>
                 <div class="col-sm-7">
                   <div class="order2">
-                    <h2>Your Order is:</h2>
+                    <h4>Your Order:</h4>
                     <div id="your-orders">
                       <table class="table table-sm  pizzatable" style="color: white;">
                         <thead>
@@ -170,18 +169,29 @@
                       <p id="totalbill"></p> 
                       <p id="addedprice">Delivery cost is KShs. 250</p>
                       <p id="finallmessage"></p>
-                    </div><br>
-                    <button class="addPizza">Add Pizza</button><br><br>
-                    <button class="" id="checkout">Checkout</button><br><br>
-                    <button class="deliver">Delivery?</button>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <button class="addPizza">Add Pizza</button><br>
+                        </div>
+                        <div class="col">
+                          <button class="" id="checkout">Checkout</button><br>
+                        </div>
+                        <div class="col">
+                          <button class="deliver">Delivery?</button>
+                        </div>
+                      </div>
+                    </div>
+                   
                   </div><br>
                   <div class="delivery">
                       <form action="">
-                        <div class="form-group">
-                          <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                          <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
-                          <input type="text" id="location" class="form-control mb-3" placeholder="Address for delivery">
-                          <button class="" id="final-order">Place Order</button>
+                        <div class="form-group form">
+                          <input type="text" id="name" class="form-control mb-3" placeholder="Name" required>
+                          <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number" required>
+                          <input type="text" id="location" class="form-control mb-3" placeholder="Address for delivery" required>
+                          <button class="submit" id="final-order">Place Order</button>
                         </div>
                       </form>
                   </div>
@@ -194,7 +204,7 @@
     </div><br><br>
     <div class="container-full text-start contact">
         <div class="contact-overlay">
-            <h1 class="text-center text-white b-text">CONTACT</h1><br>
+            <h2 class="text-center text-white b-text">Contact</h2><br>
             <div class="container">
               <div class="col-md-12 input">
                 <form id="form">
@@ -219,20 +229,20 @@
             </div>
         </div>
         <br>
-        <div class="container text-center">
+        <div class="container text-center contact">
             <div>
                 <div class="row row-cols-4">
                     <div class="col">
-                        <p>+254722991833</p>
+                        <a href="" class="responsive"><p>+254722991833</p></a>
                     </div>
                     <div class="col">
-                        <a href="mailto: kibiezekiel@gmail.com" target="_blank">hotpizza@paradise.co.ke<alt="email" class="responsive"></a>
+                        <a href="mailto: kibiezekiel@gmail.com" target="_blank"><p>hotpizza@paradise.co.ke</p><alt="email" class="responsive"></a>
                     </div>
                     <div class="col">
-                        <div><a href="https://twitter.com/KibiegoEzekiel" target="_blank">Twitter<alt="twitter" class="responsive"></a></div>
+                        <div><a href="https://twitter.com/KibiegoEzekiel" target="_blank"><p>Twitter</p><alt="twitter" class="responsive"></a></div>
                     </div>
                     <div class="col">
-                        <div><a href="https://www.facebook.com/kibiego.ezekiel.9" target="_blank">Facebook<alt="facebook" class="responsive"></a></div>
+                        <div><a href="https://www.facebook.com/kibiego.ezekiel.9" target="_blank"><p>Facebook</p><alt="facebook" class="responsive"></a></div>
                     </div>
                 </div>
             </div>

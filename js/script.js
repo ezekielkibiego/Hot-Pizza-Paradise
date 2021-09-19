@@ -148,19 +148,17 @@ $(document).ready(function(){
       $("#pizzatotal").hide();
       $(".delivery").hide();
       $("button#final-order").hide();
-      let deliveryamount= checkoutTotal+250;
+      var deliveryamount= checkoutTotal+250;
       console.log("Final Bill is: "+deliveryamount);
-      let person = $("input#name").val();
-      let phone = $("input#phone").val();
-      let location = $("input#location").val();
+      var person = $("input#name").val();
+      var phone = $("input#phone").val();
+      var location = $("input#location").val();
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
   
         $("#finallmessage").append("Hi "+ person+", We have received your order and it will be delivered to you within 45 Mins at "+location+ ". Prepare KShs. "+deliveryamount);
         $("#totalbill").hide();
         $("#finallmessage").show();
-        $("#info").hide();
-        $("#info").show();
 
       }
       else {
@@ -171,4 +169,5 @@ $(document).ready(function(){
     });
    event.preventDefault();
   });
+
 });
