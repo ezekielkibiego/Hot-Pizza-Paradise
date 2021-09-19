@@ -83,7 +83,7 @@ $(document).ready(function(){
         console.log("undefined"); 
     }
     var topping_value = ptopping.length*70;
-    console.log("toppins value" + topping_value);
+    console.log("toppings value" + topping_value);
 
     total = price + crust_price + topping_value;
     console.log(total);
@@ -106,7 +106,7 @@ $(document).ready(function(){
       });
   
         var topping_value = ptopping.length*70;
-        console.log("toppins value" + topping_value);
+        console.log("toppings value" + topping_value);
         total = price + crust_price + topping_value;
         console.log(total);
 
@@ -150,7 +150,7 @@ $(document).ready(function(){
       $(".delivery").hide();
       $("button#final-order").hide();
       var deliveryamount= checkoutTotal+250;
-      console.log("Final Bill is: "+deliveryamount);
+      console.log("Your Bill is: "+deliveryamount);
       var person = $("input#name").val();
       var phone = $("input#phone").val();
       var location = $("input#location").val();
