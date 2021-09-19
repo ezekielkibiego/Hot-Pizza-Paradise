@@ -224,3 +224,6 @@ body{
   outline: none;
   border-radius: 5px;
 }
+.delivery{
+  display: none;
+}
