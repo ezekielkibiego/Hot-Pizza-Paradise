@@ -17,6 +17,8 @@ $("#form").on('submit',function(event){
 });
 // end of contact form validation
 
+// sticky navbar
+
 var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 
@@ -32,7 +34,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-// sticky navbar
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
