@@ -48,7 +48,6 @@ body{
 .landing {
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 .header {
   padding-top: 30px;
