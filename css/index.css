@@ -237,5 +237,6 @@ body{
 input l{
   color: green;
 }
-
-
+.logo {
+  border-radius: 50%;
+}
