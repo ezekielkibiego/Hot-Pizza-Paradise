@@ -127,15 +127,15 @@
                       <option value="Gluten-free">Gluten @KShs. 230</option>
                     </select><br>
                   <label for="Toppings">Pick Toppings @KShs. 70</label><br>
-                    <div class="custom-control custom-checkbox custom-control">
+                    <div class="custom-control  custom-control-outline">
                       <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
                       <label class="custom-control-label" for="Sausage">Sausage</label>
                     </div>
-                    <div class="custom-control custom-checkbox custom-control-inline">
+                    <div class="custom-control custom-checkbox custom-control-outline">
                       <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
                       <label class="custom-control-label" for="Bacon">Bacon</label>
                     </div>
-                    <div class="custom-control custom-checkbox custom-control-inline">
+                    <div class="custom-control custom-checkbox custom-control-outline">
                         <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
                         <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
                       </div><br>
@@ -171,16 +171,13 @@
                       
                       <p id="finallm"></p>
                     </div>
-                    <div class="containe text-start">
-                      <div class="row">
-                        <div class="col">
+                    <div class="container-full">
+                        <div>
                           <button class="addPizza">Add Pizza</button><br>
                         </div>
-                        <div class="col">
-                          <button class="" id="checkout">Place Order</button><br>
-                        </div>
-                        
-                      </div>
+                    </div><br>
+                    <div>
+                      <button class="" id="checkout">Pick Up</button><br>
                     </div><br>
                     <div>
                       <button class="deliver">Delivery?</button>
@@ -192,6 +189,7 @@
                         <div class="form-group form">
                           <input type="text" id="name" class="form-control mb-3" placeholder="Name" required>
                           <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number" required>
+                          <input type="text" id="email" class="form-control mb-3" placeholder="Email" required>
                           <input type="text" id="location" class="form-control mb-3" placeholder="Address for delivery" required>
                           <button class="submit" id="final-order">Place Order</button>
                         </div>
@@ -254,6 +252,7 @@
     <div class="container text-center b-text">
       <p>&copy; 2021 | Hot Pizza Paradise</p>
     </div>
+    
     <script src="js/script.js"></script>
 </body>
 </html>

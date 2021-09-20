@@ -1,3 +1,4 @@
+// contact form validation
 $("#form").on('submit',function(event){
   event.preventDefault();
   var name = $("#name").val();
@@ -14,7 +15,9 @@ $("#form").on('submit',function(event){
  
   $("#form")[0].reset();
 });
+// end of contact form validation
 
+// sticky navbar
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
@@ -27,6 +30,8 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+// end of sticky navbar
+
 
 var price , crust_price, topping_price ;
 var total = 0;
