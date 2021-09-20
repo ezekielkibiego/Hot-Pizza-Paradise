@@ -17,6 +17,21 @@ $("#form").on('submit',function(event){
 });
 // end of contact form validation
 
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 // sticky navbar
 window.onscroll = function() {myFunction()};
 
@@ -32,6 +47,7 @@ function myFunction() {
 }
 // end of sticky navbar
 
+// price validation-business logic
 
 var price , crust_price, topping_price ;
 var total = 0;
@@ -124,6 +140,7 @@ $(document).ready(function(){
       console.log(newOrder);
       
       
+//  User interface
 
     });
     $("button#checkout").click(function(){ 
