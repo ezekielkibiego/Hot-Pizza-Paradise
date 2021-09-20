@@ -3,7 +3,7 @@
 #### By **Ezekiel Kibiego**
 
 ## ScreenShot
-<img src="">
+<img src="assets/Screenshot.png">
 
 ## Description
 This is a Pizza online Restaurant Web Application where users can order pizza and get it delivered to their homes and/or offices.
@@ -20,7 +20,7 @@ This is a Pizza online Restaurant Web Application where users can order pizza an
 
 ### Live Link
 
-<a></a>
+https://ezekielkibiego.github.io/Hot-Pizza-Paradise/
 
 ## Known Bugs
 
