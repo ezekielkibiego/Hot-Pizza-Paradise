@@ -49,7 +49,7 @@ Scroll Order-Now to the form sectin;
 </ul>
 
 ## Support and contact details
-In case of any contributions or questions, email ezekiel.nyambane@student.moringaschool.com or kibiezekiel@gmail.com
+In case of any contributions or questions, email kibiezekiel@gmail.com
 
 ### License
 
