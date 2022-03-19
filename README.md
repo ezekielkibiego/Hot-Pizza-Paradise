@@ -51,9 +51,8 @@ Scroll Order-Now to the form sectin;
 ## Support and contact details
 In case of any contributions or questions, email kibiezekiel@gmail.com
 
-### License
 
- #### MIT LICENCE
+ ### MIT LICENCE
 
 Copyright (c) 2021 **Ezekiel Kibiego**
 
